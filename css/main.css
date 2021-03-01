@@ -1,0 +1,159 @@
+@import url('fonts.css');
+
+/* Общие стили ================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  color: #1f2023;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.pointer {
+  cursor: pointer;
+}
+.submit {
+  background-color: #1f2023;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.fade_hover {
+  transition: opacity .3s;
+  opacity: .8;
+}
+.fade_hover:hover {
+  opacity: 1;
+}
+.section {
+  margin-top: 100px;
+}
+.section > h2 {
+  margin-bottom: 20px;
+}
+main {
+  min-height: 80vh;
+}
+.grid {
+  display: grid;
+  gap: 20px;
+}
+.link {
+  text-decoration: underline;
+  color: #2995e2;
+}
+h3 {
+  margin-bottom: 15px;
+}
+.icon {
+  width: 20px;
+}
+.wrapper {
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Стили шапки ================ */
+.header {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.logo {
+  max-width: 150px;
+}
+nav > a {
+  text-decoration: none;
+  opacity: .7;
+  transition: .3s;
+  margin-left: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+}
+nav > a:hover {
+  opacity: 1;
+  border-bottom-color: #1f2023;
+}
+
+/* Заголовок страницы ================ */
+.page_heading {
+  margin-top: 40px;
+}
+.page_heading > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.page_heading > p {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  opacity: .8;
+}
+
+/* Стили секций ================ */
+.long {
+  width: 100%;
+  background-color: rgba(0, 0, 0, .05);
+  padding: 40px 0;
+}
+.long > .section {
+  margin-top: 0;
+}
+
+
+/* Стили примеров ================ */
+.promo {
+  justify-content: space-between;
+}
+.promo > * {
+  max-width: 48%;
+}
+.promo__info {
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column
+}
+.promo__info > p {
+  margin: 20px 0;
+}
+.promo > img {
+  object-fit: cover;
+  object-position: center;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px
+}
+.reverse {
+  flex-direction: row-reverse
+}
+
+
+/* Стили подвала ================ */
+footer {
+  width: 100%;
+  background-color: #1f2023;
+  padding-top: 40px;
+  margin-top: 100px;
+}
+footer * {
+  color: white;
+}
+.footer_top {
+  justify-content: space-between;;
+}
+.footer_bot {
+  text-align: center;
+  background-color: #333333;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
